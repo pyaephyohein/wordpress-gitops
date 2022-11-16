@@ -1,0 +1,13 @@
+source:
+  repoURL: git@github.com:pyaephyohein/wordpress-gitops.git
+  targetRevision: main
+  wordpress:
+    repoURL: git@github.com:pyaephyohein/wordpress-gitops.git
+    targetRevision: main
+  mysql:
+    repoURL: git@github.com:pyaephyohein/wordpress-gitops.git
+    targetRevision: main
+
+destination:
+  server: https://kubernetes.default.svc
+  namespace: wordpress
